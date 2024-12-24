@@ -1,12 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Site</title>
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IronVault</title>
+  <link rel="shortcut icon" href="/assets/images/icons/logo.svg" type="image/x-icon" />
+  <link rel="stylesheet" href="/css/style.9d215e8000.css" />
+  <script defer src="/js/general.c3e6c48cb7.js"></script>
 </head>
-<body>
-    <h1>Welcome to My First Website</h1>
-    <p>This is hosted on GitHub Pages!</p>
-</body>
+
+  <body>
+    <header>
+  <nav class="container">
+    <div class="icons">
+      <a href="/" id="logo">
+        <svg id="logo" viewBox="0 0 512 512">
+          <path
+            d="M357.45,1.54v16.37c50.6-3.9,29.61,51.58,28.27,56.15c-0.02,0.06-0.03,0.13-0.05,0.18L285.64,350.36l0.45-301.83l0.06-47
+         h-64.48l-0.06,47l-0.26,170.97l-21.6-59.62l-7.22-19.98l-8.93-24.64L142.45,1.66l-81.4,0.1L78,48.53l143.02,394.74l24.34,67.19
+         l40.2-110.97L411.18,52.76c14.23-39.3,39.77-34.86,39.77-34.86c0-5.46,0-10.91,0-16.37H357.45z"
+          />
+        </svg>
+      </a>
+
+      <div class="toggle">
+        <svg id="close" viewBox="0 0 512 512">
+          <path
+            d="M500.85,427.54c11.56,11.56,11.56,30.29,0,41.85l-31.46,31.46c-11.56,11.56-30.29,11.56-41.85,0L256,329.31L84.46,500.85
+    c-11.56,11.56-30.29,11.56-41.85,0l-31.46-31.46c-11.56-11.56-11.56-30.29,0-41.85L182.69,256L11.15,84.46
+    c-11.56-11.56-11.56-30.29,0-41.85l31.46-31.46c11.56-11.56,30.29-11.56,41.85,0L256,182.69L427.54,11.15
+    c11.56-11.56,30.29-11.56,41.85,0l31.46,31.46c11.56,11.56,11.56,30.29,0,41.85L329.31,256L500.85,427.54z"
+          />
+        </svg>
+        <svg id="hamburger" viewBox="0 0 512 512">
+          <path
+            d="M479.46,128.95H32.54c-16.57,0-30-13.43-30-30v-47.6c0-16.57,13.43-30,30-30h451.92c13.81,0,25,11.19,25,25v52.6
+        C509.46,115.51,496.03,128.95,479.46,128.95z"
+          />
+          <path
+            d="M479.46,309.8H32.54c-16.57,0-30-13.43-30-30v-47.6c0-16.57,13.43-30,30-30h451.92c13.81,0,25,11.19,25,25v52.6
+        C509.46,296.37,496.03,309.8,479.46,309.8z"
+          />
+          <path
+            d="M479.46,490.65H32.54c-16.57,0-30-13.43-30-30v-47.6c0-16.57,13.43-30,30-30h451.92c13.81,0,25,11.19,25,25v52.6
+        C509.46,477.22,496.03,490.65,479.46,490.65z"
+          />
+        </svg>
+      </div>
+    </div>
+
+    <div class="menu">
+      <ul>
+        <li class="dropdown">
+          <div class="link">
+            Community
+            <svg class="arrow" viewBox="0 0 512 512">
+              <path
+                d="M501.03,374.49l-30.62,30.62c-12.68,12.68-33.25,12.68-45.93,0l-168.3-168.3L87.53,405.45c-12.68,12.68-33.25,12.68-45.93,0
+            l-30.62-30.62c-12.68-12.68-12.68-33.25,0-45.93l168.65-168.64l-0.12-0.12l53.59-53.59c12.68-12.68,33.25-12.68,45.93,0
+            l222.01,222.01C513.72,341.24,513.72,361.81,501.03,374.49z"
+              />
+            </svg>
+          </div>
+          <ul class="menu">
+            <li>
+              <a href="/profiles" class="dlink">Profiles</a>
+            </li>
+            <li>
+              <a class="dlink unavailable">Competitions</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <div class="link">
+            Game
+            <svg class="arrow" viewBox="0 0 512 512">
+              <path
+                d="M501.03,374.49l-30.62,30.62c-12.68,12.68-33.25,12.68-45.93,0l-168.3-168.3L87.53,405.45c-12.68,12.68-33.25,12.68-45.93,0
+            l-30.62-30.62c-12.68-12.68-12.68-33.25,0-45.93l168.65-168.64l-0.12-0.12l53.59-53.59c12.68-12.68,33.25-12.68,45.93,0
+            l222.01,222.01C513.72,341.24,513.72,361.81,501.03,374.49z"
+              />
+            </svg>
+          </div>
+          <ul class="menu">
+            <li>
+              <a href="/garage" class="dlink">Garage simulator</a>
+            </li>
+            <li>
+              <a class="dlink unavailable">Achievements</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <div class="link">
+            Other
+            <svg class="arrow" viewBox="0 0 512 512">
+              <path
+                d="M501.03,374.49l-30.62,30.62c-12.68,12.68-33.25,12.68-45.93,0l-168.3-168.3L87.53,405.45c-12.68,12.68-33.25,12.68-45.93,0
+            l-30.62-30.62c-12.68-12.68-12.68-33.25,0-45.93l168.65-168.64l-0.12-0.12l53.59-53.59c12.68-12.68,33.25-12.68,45.93,0
+            l222.01,222.01C513.72,341.24,513.72,361.81,501.03,374.49z"
+              />
+            </svg>
+          </div>
+          <ul class="menu">
+            <li>
+              <a href="/acknowledge" class="dlink">Acknowledgments</a>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="https://tanktrouble.com/forum?threadId=462879" target="_blank" class="link"><button>Thread</button></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+    <main>
+      <section class="u-vh-100-no-header">
+        <div class="container u-h-100"><div class="landingPage">
+  <div>
+    <h1 class="title">IronVault</h1>
+    <h2 class="subtitle">
+      A simple website dedicated to the game
+      <a href="https://tanktrouble.com/" target="_blank">TankTrouble</a>, containing useful information and features that aim to improve overall players'
+      experience.
+    </h2>
+  </div>
+  <div class="wrapper">
+    <img src="/assets/images/index.svg" alt="landing page icon" />
+  </div>
+</div>
+ <footer>
+  <div class="container">
+    <p>&copy 2023 - <span id="copyright"></span> IronVault by <a href="/profiles/Gentleman#focus" target="_blank">Gentleman</a></p>
+  </div>
+</footer>
+</div>
+      </section>
+    </main>
+  </body>
 </html>
